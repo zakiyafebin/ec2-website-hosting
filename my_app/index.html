@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/css/style.css">
+
+    <link rel="stylesheet" href="./resources/css/bootstrap.min.css">
+    
+
+    <title>Wintage Cars</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./resources/images/logo-small-cropped.jpg" alt="Logo of vintage cars">
+        </div>
+        <nav>
+            <div>
+                <ul>
+                   <li><a href="#carsSection">Cars</a></li>
+                   
+                   <li><a href="#enquiriesSection">Enquiries</a></li>
+                   
+                   <li><a href="#ContactSection">Contact</a></li> 
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="hero">
+        <div class="mainHeading">
+            <br>
+            <h1>Vintage Cars for hire.</h1>
+        </div>
+        <section id="carsSection">
+            <h2>Car Listings</h2>
+            <div class="vintageCars">
+                <div class="cotainer">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./resources/images/car1.jpg" alt="A red vintage car">
+                                <div class="card-body">
+                                    <h4> Red Ferreri</h4>
+                                    <p>Car Type : Sedan</p>
+                                    <p>Doors: 5</p>
+                                  <p class="card-text"></p>
+                                </div>
+                              </div>
+
+                        </div>
+                        <div class=" col-sm-12 col-md-6 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./resources/images/car2.webp" alt="A blue beetle car">
+                                <div class="card-body">
+                                    <h4> Blue</h4>
+                                    <p>Car Type : Hatch back</p>
+                                    <p>Doors: 5</p>
+                                  <p class="card-text"></p>
+                                </div>
+                              </div>
+
+
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./resources/images/car3.jpg" alt="A blue vintage car">
+                                <div class="card-body">
+                                    <h4> Beetle</h4>
+                                    <p>Car Type : Sedan</p>
+                                    <p>Doors: 5</p>
+                                  <p class="card-text"></p>
+                                </div>
+                              </div>
+
+                        </div>
+                        <div class="col-sm-12  col-md-6 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./resources/images/car4.jpg" alt="A brown vintage car">
+                                <div class="card-body">
+                                    <h4> Aston Martle</h4>
+                                    <p>Car Type : Sedan</p>
+                                    <p>Doors: 5</p>
+                                  <p class="card-text"></p>
+                                </div>
+                              </div>
+
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+           
+        </section>
+        <section id="enquiriesSection">
+            
+          <div class=" formContainer">
+            <form> 
+                <div><h4>Enquire abour a car</h4></div>
+                <div class="row">
+                    <div class="col-12 ">
+                        <div class="form-group p-2">
+                            <label for="name">Full Name:</label>
+                            <input type="text" class="form-control" id="name"  placeholder="John">
+                          </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group p-2">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email"  placeholder="john.alex@gmail.com">
+                          </div>
+
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group p-2">
+                            <label for="chooseCar">Choose a car:</label>
+                            <select name="choosecar" id="chooseCar" class="form-control">
+                                <option value="beetle">Beetle</option>
+                                <option value="ferrari">Ferrari</option>
+                                <option value="benz">Benz</option>
+                                <option value="alpharomeo">Alpha Romeo</option>
+          
+                            </select>
+                          </div>                        
+                    </div>
+                   
+                    <div class="col-12">
+                        <div class="form-group p-2">
+                            <label for="comment">Comment</label>
+                            <textarea name="comment" id="comment" cols="20" rows="3" class="form-control"></textarea>
+                          </div>        
+                    </div>
+
+                </div>  
+                <div class="text-center">
+                    <button type="submit" class="btn btn-danger p-2 btn">Submit</button>    
+                </div>                               
+                  
+          </form>
+          </div>  
+        </section>
+        <section id="ContactSection">
+            <h4 class="contactUs">Contact us</h4>
+            <div class="enquiry">
+                <div class="addressVin">
+                   <address>
+                        Visit us at:<br>
+                        111 Arden Street  #1111, North Melbourne VIC ###<br>
+                        Areas served: Brisbane and nearby areas<br>
+                        Hours: <br>
+                        Open ⋅ Closes 5:30AM Thu<br>
+                        Phone: 00000000000
+                    </address>
+                </div>
+                <div class="googleMap">
+                    <div id="map-container-google-1" class="z-depth-1-half map-container" >
+                        <iframe src="https://maps.google.com/maps?q=Melbourne&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                          style="border:0" allowfullscreen></iframe>
+                      </div>
+    
+                </div>
+                
+
+            </div>
+            
+            
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2020 Vintage Cars Glen. All rights reserved.</p>
+        <div class="links">
+            <a href="#">Back to Top</a>
+          </div>
+    </footer>
+    
+    
+</body>
+</html>

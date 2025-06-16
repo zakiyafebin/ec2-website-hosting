@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+section{
+    margin:2rem 2rem;
+}
+.hero{
+    /* background-color: rgb(248, 241, 241); */
+
+}
+
+header {
+    background-color: #312b2b;
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    z-index: 1000;
+    align-items: center;
+  }
+  .logo{
+      flex:1;
+      padding-left: 1rem;
+  }
+ 
+ul {
+    
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 1rem;
+
+    
+      align-items: center;
+   
+  }
+  nav a{
+      text-decoration: none;
+      color: white;
+      font-size: 1.5rem;
+       font-weight: 200; 
+
+  }
+  li{
+  
+    padding:1rem;
+  }
+
+  main {
+    position: relative;
+    top: 3.5rem;
+    /* background-color: rgb(223, 206, 203); */
+  }
+  .mainHeading{
+      font-size: larger;
+      font-weight: bolder;
+      text-align: center;
+      
+  }
+  h1{
+    border-bottom: 4px double rgb(46, 34, 32);
+    padding: 1rem;
+  }
+  h1,h2,h4{
+    color: rgb(37, 36, 35);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    /* text-shadow: 2px 2px #a08989; */
+
+  }
+  .formContainer{
+        width:50%;
+        margin-left:20%;
+      padding: 1rem;
+      margin-top: 1rem;
+      border-radius: 10px;
+      background-color: rgb(158, 146, 146);
+  }
+  
+  
+ .vintageCars img{
+     border-radius: 10%;
+ }
+  .enquiry{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+     
+      width: 100%;
+  }
+  .contactUs{
+      text-align: center;
+  }
+  .addressVin{
+    max-width: 50%;
+    flex-basis: auto;
+    padding:2rem
+    
+    /* border: 1px solid red; */
+   
+
+  }
+  address{
+      padding: 1rem;
+  }
+ 
+  .googleMap{
+    max-width: 50%;
+    flex-basis: auto;
+    padding: 2rem;
+    
+
+  }
+  footer{
+      position: relative;
+      top: 2rem;
+      padding: 2rem;
+      border-top: 1px solid gray;
+      text-align: center;
+  }
+  .links{
+      text-align: right;
+  }
+
+  /* Desk  Top */
+  @media only screen and (min-width: 801px) {
+
+
+
+  
+
+}
+
+    /* Mobile */
+  @media only screen and (max-width: 800px) {
+      header{
+          display: block;
+      }
+      main{
+          margin: 0;
+      }
+      .logo{
+          margin-left: auto;
+      }
+      #carsSection{
+          margin: 2rem;
+      }
+      .enquiry{
+          display: block;
+          /* padding: 1rem; */
+      }
+      iframe{
+          width: 95%;
+      }
+      .formContainer{
+          padding: 0;
+          margin: 0;
+          width: 100%;
+      }
+      .enquiriesSection{
+          padding: 0;
+          margin: 0;
+
+      }
+      .addressVin, .googleMap{
+         max-width: 100%;
+         flex-basis: 90%;
+          
+      }
+      address{
+          padding: 0;
+      }
+     
+
+  }
+
+  
